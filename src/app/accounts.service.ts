@@ -1,8 +1,9 @@
 import { LoggingService } from './shared/logging.service';
 import { Injectable } from '@angular/core';
 
-
+// Meta data for a service (AccountService), so that we can inject other service into this one(AccountService).
 @Injectable()
+
 export class AccountsService {
     accounts = [
         {
